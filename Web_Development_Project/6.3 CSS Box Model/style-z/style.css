@@ -43,6 +43,7 @@ div{
 #box13{
     background-color: indianred;
     border-style: solid;
+    border-color: black;
     border-width: 10px;
     margin-left: 40px;          /*<<<<------9. Set the margins for the divs so that each box corner touches the other. (See the goal image)*/
 }
