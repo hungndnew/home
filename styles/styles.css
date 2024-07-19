@@ -1,3 +1,11 @@
+.text-z1{
+    text-align: center;
+}
 html{
+    border-top: 1000px;
     background-color: darkcyan;
+}
+img{
+    height: min-content;
+    width: 500px;
 }
