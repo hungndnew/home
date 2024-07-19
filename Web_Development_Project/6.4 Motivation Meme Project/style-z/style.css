@@ -2,14 +2,21 @@
   TODO: Create a motivational post website.
 Style it how ever you like. 
 Look at the goal image for inspiration.
-But it must have the following features:
+But it must have the following features:*/
+
+body{
+    background: black;
+}
 
 /*1. The main h1 text should be using the Regular Libre Baskerville Font from Google Fonts:
 https://fonts.google.com/specimen/Libre+Baskerville */
+/*6. Read about the text-transform property on MDN docs to make the h1 uppercase with CSS.
+https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform */
 h1{
     font-family: "Libre Baskerville", serif;
     font-weight: 400;
     font-style: normal;
+    text-transform: uppercase
 }
 
 /*2. The text should be white and background black.*/
@@ -35,10 +42,6 @@ div{
     margin-left: 25%;
 }
 
-/*6. Read about the text-transform property on MDN docs to make the h1 uppercase with CSS.
-https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform 
-*/
-h1{
-    text-transform: uppercase
-}
+
+
 
